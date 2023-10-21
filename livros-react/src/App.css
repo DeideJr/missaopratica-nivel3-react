@@ -1,0 +1,111 @@
+/* Estilo para o elemento (navegação) */
+nav {
+    background-color: #00000075; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 10px; 
+    font-size: 20pt;
+  }
+  
+  /* Estilo para os links do menu */
+  nav a {
+    text-decoration: none; 
+    color: #fff;
+    margin: 0 10px; 
+    transition: color 0.3s; 
+  }
+  
+  /* Estilo para os links do menu ao passar o mouse */
+  nav a:hover {
+    color: #ff5733; 
+  }
+  
+  /* Estilo para o título do menu (opcional) */
+  nav h1 {
+    margin: 0;
+    font-size: 30pt; 
+    color: #fff; 
+  }
+
+h1{
+    background-color: #00000075;
+    color: rgba(0, 0, 0, 0.558);
+    padding-left: 10px;
+}
+
+  /*campos de entrada no formulário */
+  input[type="text"], select {
+    padding: 6px 12px;
+    margin: 8px;
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+
+/* Estilize a tabela principal */
+.table {
+    font: normal 14pt arial;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+   
+  }
+  
+  /*células da tabela */
+  td, th {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /*cabeçalho da tabela */
+  th {
+    color: whitesmoke;
+    background-color: #00000075;
+    text-align: center;
+  }
+  
+  /*linhas ímpares da tabela com uma cor de fundo diferente */
+  tr:nth-child(odd) {
+    background-color: #fffdfd;
+  }
+  
+  /*botão de exclusão */
+  button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #bc5a5a;
+  }
+
+   /*botão de submissão no formulário */
+   input[type="submit"] {
+    background-color: #27b0da;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #126984;
+  }
+
+  .book-form{
+   font: normal 16pt Arial;
+   width: 500px;
+   padding: 5px;
+   margin: auto;
+   text-align: center;
+  }
+  
